@@ -55,7 +55,7 @@ class Estudiante
 
 	public function edit()
 	{
-		$sql = "UPDATE FROM estudiantes SET nombre = '{$this->nombre}', edad = '{$this->edad}', promedio = '{$this->promedio}', id_seccion = '{$this->id_seccion}'";
+		$sql = "UPDATE estudiantes SET nombre = '{$this->nombre}', edad = '{$this->edad}', promedio = '{$this->promedio}', id_seccion = '{$this->id_seccion}'";
 
 		 $this->con->consultaSimple($sql);
 	}
